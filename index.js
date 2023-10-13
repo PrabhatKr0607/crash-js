@@ -302,3 +302,6 @@ function introduce(title, profession) {
 boundFunction();
 
 // const newFunction = functionName.bind(thisArg, arg, arg2);
+
+
+// Filter Map Reduce
