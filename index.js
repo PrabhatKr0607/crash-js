@@ -303,5 +303,17 @@ boundFunction();
 
 // const newFunction = functionName.bind(thisArg, arg, arg2);
 
+// JavaScript Question
 
-// Filter Map Reduce
+const initialAmount = 100.00;
+const discountRate = 0.10; // 10%
+
+function calculateTotal(amount, discountRate) {
+  const discountAmount = amount * discountRate;
+  const discountedTotal = amount - discountAmount;
+  return discountedTotal;
+}
+
+const discountedTotal = calculateTotal(initialAmount, discountRate);
+
+console.log(`Discounted total: $${discountedTotal.toFixed(2)}`);
